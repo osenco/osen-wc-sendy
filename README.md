@@ -1,37 +1,28 @@
-# Sendy Ecommerce Woocommerce plugin
+# Sendy Delivery Woocommerce plugin
 This module integrates Sendy delivery service to the customers shopping flow
-
-## Wordpress Installation
- - Download wordpress here :- https://wordpress.org/download/
- - Setup the installation
-
-## Woocommerce Installation
- - On your wordpress Admin, click on 'Plugins/Add New' and search for Woocommerce.
- - Setup the installation
  
-## Sendy Ecommerce Woocommerce plugin Installation( Woocommerce 3.5.0)
- - Download Sendy Ecommerce from our github repo.
- - Unzip (decompress) the archive file (woocommerce-master.zip).
+## Sendy Delivery Woocommerce plugin Installation( Woocommerce 3.5.0)
+ - Download Sendy Delivery from our github repo.
+ - Unzip (decompress) the archive file (osen-wc-sendy-master.zip).
  - Place the folder(sendyit) in your wordpress/wp-contents/plugins folder.
- - Go to your wordpress admin, in the "Plugins" tab, Sendy Ecommerce will be listed as a plugin.
+ - Go to your wordpress admin, in the "Plugins" tab, Sendy Delivery will be listed as a plugin.
  
   ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/activate.png)
   
   
-  
  - Activate the plugin.
- - Still on wordpress Admin, go to Woocommerce/settings/shipping/Sendy Ecommerce.
+ - Still on wordpress Admin, go to Woocommerce/settings/shipping/Sendy Delivery.
  
   ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/options.png)
   
  -  Under 'Shipping Options' tab, ensure that you check 'enable debug mode' and also 'default to customer's <b>billing</b> address'.
    ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/debug.png)
 
- - Configure Sendy Ecommerce and click 'Save'.
+ - Configure Sendy Delivery and click 'Save'.
  
   ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/configure.png)
   
- - Sendy Ecommerce will now be visible in the checkout page, at the cart.
+ - Sendy Delivery will now be visible in the checkout page, at the cart.
  
   ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/checkout.png)
   
