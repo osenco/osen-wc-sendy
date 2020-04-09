@@ -33,7 +33,7 @@ class Sendy_Api_Admin {
 
 	public function enqueue_scripts() {
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/sendy-api-admin.js', array( 'jquery' ), $this->version, true );
+		//wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/sendy-api-admin.js', array( 'jquery' ), $this->version, true );
 
 	}
 

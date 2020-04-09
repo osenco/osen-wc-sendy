@@ -205,7 +205,6 @@ input::-moz-placeholder { /* Mozilla Firefox 19+ */
 input:-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #555;
 }
-/*# sourceMappingURL=front.css.map */
 
 .alert-danger {
     color: #721c24;

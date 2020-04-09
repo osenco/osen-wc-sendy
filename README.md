@@ -1,7 +1,6 @@
 # Sendy Ecommerce Woocommerce plugin
 This module integrates Sendy delivery service to the customers shopping flow
 
-
 ## Wordpress Installation
  - Download wordpress here :- https://wordpress.org/download/
  - Setup the installation
@@ -13,7 +12,7 @@ This module integrates Sendy delivery service to the customers shopping flow
 ## Sendy Ecommerce Woocommerce plugin Installation( Woocommerce 3.5.0)
  - Download Sendy Ecommerce from our github repo.
  - Unzip (decompress) the archive file (woocommerce-master.zip).
- - Place the folder(sendy-api) in your wordpress/wp-contents/plugins folder.
+ - Place the folder(sendyit) in your wordpress/wp-contents/plugins folder.
  - Go to your wordpress admin, in the "Plugins" tab, Sendy Ecommerce will be listed as a plugin.
  
   ![alt text](https://raw.githubusercontent.com/sendyit/woocommerce/master/sendy-api/images/activate.png)

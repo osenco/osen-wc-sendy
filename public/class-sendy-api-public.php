@@ -18,15 +18,15 @@ class Sendy_Api_Public {
 
 	private $version;
 
-	public function __construct( $plugin_name, $version ) {
-
+	public function __construct( $plugin_name, $version ) 
+	{
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
 
 	}
 
-	public function enqueue_styles() {
-
+	public function enqueue_styles() 
+	{
 		/**
 		 * This function is provided for demonstration purposes only.
 		 *
@@ -42,8 +42,9 @@ class Sendy_Api_Public {
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/sendy-api-public.css', array(), $this->version, 'all' );
 
 	}
-	public function enqueue_scripts() {
 
+	public function enqueue_scripts() 
+	{
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/cookie.js', array( 'jquery' ), $this->version, true );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/sendy-api-public.js', array( 'jquery' ), $this->version, false );
 

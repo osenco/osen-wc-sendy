@@ -24,7 +24,8 @@
  * @subpackage Sendy_Api/includes
  * @author     Dervine N <ndervine@sendy.co.ke>
  */
-class Sendy_Api_i18n {
+class Sendy_Api_i18n
+{
 
 
 	/**
@@ -32,16 +33,13 @@ class Sendy_Api_i18n {
 	 *
 	 * @since    1.0.0
 	 */
-	public function load_plugin_textdomain() {
+	public function load_plugin_textdomain()
+	{
 
 		load_plugin_textdomain(
-			'sendy-api',
+			'sendyit',
 			false,
-			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
+			dirname(dirname(plugin_basename(__FILE__))) . '/languages/'
 		);
-
 	}
-
-
-
 }
